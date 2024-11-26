@@ -1,5 +1,5 @@
 import Phaser from "phaser";
-import GameScene from "./scenes/GameScene.js";
+import SpaceScene from "./scenes/SpaceScene";
 
 const config = {
   type: Phaser.AUTO,
@@ -17,7 +17,7 @@ const config = {
       debug: true,
     },
   },
-  scene: [GameScene],
+  scene: [SpaceScene],
 };
 
 const game = new Phaser.Game(config);
